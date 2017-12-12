@@ -1,0 +1,98 @@
+.gravatar {
+  float: right;
+  margin-top: -2%;
+}
+
+.gravatar img {
+  border-radius: 50%;
+}
+
+.site {
+  font-size: 115%;
+  text-align: justify;
+  max-width: 600px;
+  margin: 3em auto 2em;
+  padding: 0 2%;
+  line-height: 1.5em;
+}
+
+.site .header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site .header .title {
+  display: inline-block;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-size: 250%;
+  margin-top: 3%;
+}
+
+.site .header h1.title a,
+.fa-rss {
+  rgb(51, 102, 255);
+}
+
+.site .body {}
+
+.site .footer {}
+
+.site .p {}
+
+.fcc {}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.btn-fcc {
+  color: #FFFFFF;
+  background-color: #006600;
+  border-color: rgba(0, 153, 51, 0.2)
+}
+
+.btn-fcc:hover,
+.btn-fcc:focus,
+.btn-fcc:active,
+.btn-fcc.active,
+.open>.dropdown-toggle.btn-fcc {
+  color: #FFFFFF;
+  background-color: #003300;
+  border-color: rgba(0, 153, 51, 0.2)
+}
+
+.btn-fcc:active,
+.btn-fcc.active,
+.open>.dropdown-toggle.btn-fcc {
+  background-image: none
+}
+
+.btn-fcc.disabled,
+.btn-fcc[disabled],
+fieldset[disabled] .btn-fcc,
+.btn-fcc.disabled:hover,
+.btn-fcc[disabled]:hover,
+fieldset[disabled] .btn-fcc:hover,
+.btn-fcc.disabled:focus,
+.btn-fcc[disabled]:focus,
+fieldset[disabled] .btn-fcc:focus,
+.btn-fcc.disabled:active,
+.btn-fcc[disabled]:active,
+fieldset[disabled] .btn-fcc:active,
+.btn-fcc.disabled.active,
+.btn-fcc[disabled].active,
+fieldset[disabled] .btn-fcc.active {
+  background-color: #eff7ff;
+  border-color: rgba(0, 153, 51, 0.2)
+}
+
+.btn-fcc .badge {
+  color: #eff7ff;
+  background-color: #000
+}
